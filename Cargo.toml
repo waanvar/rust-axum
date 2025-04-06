@@ -10,6 +10,8 @@ serde = { version = "1" , features = ["derive"]}
 serde_json = "1"
 #Axum
 axum = "0.8.3"
+#Tower
+tower-http = { version = "0.5.2" , features = ["fs"]}
 
 [dev-dependencies]
 anyhow="1"
